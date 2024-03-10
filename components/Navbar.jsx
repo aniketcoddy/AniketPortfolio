@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 ">
       <div className="hidden md:flex gap-4 w-1/3 md:justify-center text-lg ">
         {NavLinks.map((link) => (
-          <NavLink link={link} key={link.title} />
+          <NavLink link={link} key={link.title}/>
         ))}
       </div>
 
@@ -61,23 +61,13 @@ const Navbar = () => {
             ))}
             <div className="flex gap-5">
               <Link href="/">
-                <Image src="/github.png" alt="github" width={30} height={30} />
+                <Image src="/github2.png" alt="github" width={30} height={30} />
               </Link>
               <Link href="/">
-                <Image
-                  src="/linkedin.png"
-                  alt="linkidin"
-                  width={30}
-                  height={30}
-                />
+                <Image src="/linkedin.png" alt="linkidin" width={30} height={30} />
               </Link>
               <Link href="/">
-                <Image
-                  src="/whatsapp.png"
-                  alt="whatsapp"
-                  width={30}
-                  height={30}
-                />
+                <Image src="/whatsapp.png" alt="whatsapp" width={30} height={30} />
               </Link>
             </div>
           </div>
