@@ -2,10 +2,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import Link from "next/link";
-import img1 from "../../portfolio/public/github.png";
-import img2 from "../../portfolio/public/linkedin.png";
-import img3 from "../../portfolio/public/whatsapp.png";
-import img4 from "../../portfolio/public/github2.png"
 import NavLink from "./NavLink";
 
 const Navbar = () => {
@@ -15,7 +11,7 @@ const Navbar = () => {
     <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 ">
       <div className="hidden md:flex gap-4 w-1/3 md:justify-center text-lg ">
         {NavLinks.map((link) => (
-          <NavLink link={link} key={link.title}/>
+          <NavLink link={link} key={link.title} />
         ))}
       </div>
 
@@ -34,13 +30,13 @@ const Navbar = () => {
 
       <div className="hidden md:flex gap-5 w-1/3 md:justify-center">
         <Link href="/">
-          <Image src={img1} alt="github" width={30} height={30} />
+          <Image src="/github.png" alt="github" width={30} height={30} />
         </Link>
         <Link href="/">
-          <Image src={img2} alt="linkidin" width={30} height={30} />
+          <Image src="/linkedin.png" alt="linkidin" width={30} height={30} />
         </Link>
         <Link href="/">
-          <Image src={img3} alt="whatsapp" width={30} height={30} />
+          <Image src="/whatsapp.png" alt="whatsapp" width={30} height={30} />
         </Link>
       </div>
 
@@ -65,13 +61,23 @@ const Navbar = () => {
             ))}
             <div className="flex gap-5">
               <Link href="/">
-                <Image src={img4} alt="github" width={30} height={30} />
+                <Image src="/github.png" alt="github" width={30} height={30} />
               </Link>
               <Link href="/">
-                <Image src={img2} alt="linkidin" width={30} height={30} />
+                <Image
+                  src="/linkedin.png"
+                  alt="linkidin"
+                  width={30}
+                  height={30}
+                />
               </Link>
               <Link href="/">
-                <Image src={img3} alt="whatsapp" width={30} height={30} />
+                <Image
+                  src="/whatsapp.png"
+                  alt="whatsapp"
+                  width={30}
+                  height={30}
+                />
               </Link>
             </div>
           </div>
