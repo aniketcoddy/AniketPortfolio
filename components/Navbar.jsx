@@ -66,19 +66,19 @@ const Navbar = () => {
 
   return (
     <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 ">
-      <div className="hidden md:flex gap-4 w-1/3 md:justify-center text-lg ">
+      <div className="hidden md:flex gap-4 w-1/3 md:justify-center text-lg 2xl:text-xl ">
         {NavLinks.map((link) => (
           <NavLink link={link} key={link.title} />
         ))}
       </div>
 
       {/* logo making */}
-      <div className=" md:hidden lg:flex lg:w-1/3 lg:justify-center">
+      <div className=" md:hidden lg:flex lg:w-1/3 lg:justify-center ">
         <Link
           href="/"
-          className="flex text-sm bg-black font-semibold p-1 items-center justify-center rounded-md"
+          className="flex text-sm bg-black font-semibold p-1 items-center 2xl:text-xl justify-center rounded-md"
         >
-          <h1 className="text-white px-1 ">AnI</h1>
+          <h1 className="text-white px-1 2xl:px-2 ">AnI</h1>
           <h1 className="text-black bg-white p-1 justify-center rounded-md">
             .Portfolio
           </h1>
@@ -129,7 +129,7 @@ const Navbar = () => {
             className="absolute bg-black w-screen text-white top-0 left-0 h-screen flex flex-col items-center justify-center gap-8 text-2xl z-40"
           >
             {NavLinks.map((links) => (
-              <motion.div variants={listItemVariants} key={links.title}>
+              <motion.div variants={listItemVariants} key={links.title} onClick={() => setOpen(!open)}>
                 <Link href={links.url}>{links.title}</Link>
               </motion.div>
             ))}
