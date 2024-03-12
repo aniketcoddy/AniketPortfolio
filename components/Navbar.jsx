@@ -76,7 +76,7 @@ const Navbar = () => {
       <div className=" md:hidden lg:flex lg:w-1/3 lg:justify-center ">
         <Link
           href="/"
-          className="flex text-sm bg-black font-semibold p-1 items-center 2xl:text-xl justify-center rounded-md"
+          className="flex text-sm bg-black font-semibold p-1 items-center 2xl:text-xl justify-center rounded-md z-10"
         >
           <h1 className="text-white px-1 2xl:px-2 ">AnI</h1>
           <h1 className="text-black bg-white p-1 justify-center rounded-md">
