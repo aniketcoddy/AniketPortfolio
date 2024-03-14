@@ -65,7 +65,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 ">
+    <div className="h-full flex items-center justify-between font-[Poppins] px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 ">
       <div className="hidden md:flex gap-4 w-1/3 md:justify-center text-lg 2xl:text-xl ">
         {NavLinks.map((link) => (
           <NavLink link={link} key={link.title} />
@@ -86,13 +86,13 @@ const Navbar = () => {
       </div>
 
       <div className="hidden md:flex gap-5 w-1/3 md:justify-center">
-        <Link href="/">
+        <Link href="https://github.com/aniketcoddy" target="_blank">
           <Image src="/github.png" alt="github" width={30} height={30} />
         </Link>
-        <Link href="/">
+        <Link href="https://www.linkedin.com/in/aniket-vishnoi-a19940221/" target="_blank">
           <Image src="/linkedin.png" alt="linkidin" width={30} height={30} />
         </Link>
-        <Link href="/">
+        <Link href="https://wa.me/7302918014?text=urlencodedtext" target="_blank">
           <Image src="/whatsapp.png" alt="whatsapp" width={30} height={30} />
         </Link>
       </div>

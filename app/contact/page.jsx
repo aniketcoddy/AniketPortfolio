@@ -41,7 +41,7 @@ const ContactPage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col lg:flex-row p-4 gap-6 px-3 md:px-12 lg:px-20 xl:px-48 xl:py-11">
+      <div className="h-full flex flex-col font-[Poppins] lg:flex-row p-4 gap-6 px-3 md:px-12 lg:px-20 xl:px-48 xl:py-11">
         {/* TEXT CONTAINER */}
         <div className="h-1/4  lg:h-full lg:w-1/2 flex  items-center justify-center text-4xl md:text-6xl">
           <div>
