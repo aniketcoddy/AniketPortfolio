@@ -43,7 +43,7 @@ const AboutPage = () => {
             <p className="text-lg">
               Greetings! I am Aniket Vishnoi, a proficient front-end developer
               poised for a transition into full-stack development.<br/> Armed with a
-              Bachelor's in Computer Science, I am steadfast in my commitment to
+              Bachelors in Computer Science, I am steadfast in my commitment to
               continuous improvement in development prowess through 2022 and
               beyond.<br/> My repertoire boasts mastery in HTML, CSS, and JavaScript,
               augmented by adept utilization of cutting-edge technologies such
