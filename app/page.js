@@ -6,9 +6,9 @@ import { motion } from "framer-motion"
 export default function Home() {
   return (
     <motion.div className="h-full " initial={{y:"-200vh"}} animate={{y:"0vh"}} transition={{duration:"1"}}>
-      <div className="h-full flex justify-center  px-4 lg:flex-row  sm:px-8 md:px-12 lg:px-20 xl:px-2 flex-col">
+      <div className="h-full flex justify-center  px-4 lg:flex-row  sm:px-8 md:px-12 lg:px-20 xl:px-2 2xl:gap-28 2xl:px-36 flex-col">
         {/* image container */}
-        <div className="h-1/2 lg:h-full xl:w-[579px] 2xl:w-[610px] lg:w-1/2 relative">
+        <div className="h-1/2 lg:h-full xl:w-[579px] 2xl:w-[610px]  lg:w-1/2 relative">
           <Image src='/me.png' fill className="object-cover" />
         </div>
         {/* text container */}
