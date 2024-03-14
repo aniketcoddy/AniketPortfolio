@@ -105,7 +105,7 @@ const AboutPage = () => {
             <motion.div
               initial={{ x: "-300px" }}
               animate={isSkillRefInView ? { x: 0 } : {}}
-              className="flex gap-4 flex-wrap"
+              className="flex xl:gap-4 gap-2 flex-wrap"
             >
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 JavaScript
