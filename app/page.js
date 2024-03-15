@@ -14,7 +14,7 @@ export default function Home() {
         </div>
         {/* text container */}
         <div className="h-1/3 md:h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-3 2xl:gap-5 md:gap-5  items-start justify-center">
-          <h1 className="text-2xl md:text-5xl 2xl:text-5xl font-bold ">Hello, I'm Aniket,</h1>
+          <h1 className="text-2xl md:text-5xl 2xl:text-5xl font-bold ">{`Hello, I'm Aniket`}</h1>
           <h1 className="text-lg md:text-xl 2xl:text-3xl font-bold ">FrontEnd Developer</h1>
           <p className="md:text-base text-xs 2xl:text-xl">Frontend dev proficient in Next.js, JS, TypeScript, HTML, CSS. Specialize in UI/UX, using Tailwind CSS, Redux Toolkit. Let's build something amazing!</p>
 
