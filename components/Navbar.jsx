@@ -134,10 +134,10 @@ const Navbar = () => {
               </motion.div>
             ))}
             <div className="flex gap-5">
-              <Link href="/">
+              <Link href="https://github.com/aniketcoddy" target="_blank">
                 <Image src="/github2.png" alt="github" width={30} height={30} />
               </Link>
-              <Link href="/">
+              <Link href="https://www.linkedin.com/in/aniket-vishnoi-a19940221/" target="_blank">
                 <Image
                   src="/linkedin.png"
                   alt="linkidin"
@@ -145,7 +145,7 @@ const Navbar = () => {
                   height={30}
                 />
               </Link>
-              <Link href="/">
+              <Link href="https://wa.me/7302918014?text=urlencodedtext" target="_blank">
                 <Image
                   src="/whatsapp.png"
                   alt="whatsapp"
